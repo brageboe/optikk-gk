@@ -1,6 +1,6 @@
 import numpy as np
 
-# system constants in millimeters
+# SYSTEM CONSTANTS IN MILLIMETERS
 d1 = 3.6 # distance from cornea to lens 1st surface
 d2 = 3.6 # distance from 1st surface to 2nd surface of lens
 Rf = 10
@@ -11,6 +11,7 @@ nL = 1.45
 nVC = 1.333 #1.0
 s_object = 250
 
+# EYE ACCOMMODATION W/ USER INPUT
 eye_unaccommodation = input("Is the eye unaccommodated? (yes/no)")
 if eye_unaccommodation == "no" or eye_unaccommodation == "n" or eye_unaccommodation == "N":
     d1 = 3.2
