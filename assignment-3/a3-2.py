@@ -6,16 +6,7 @@ Created on Fri Oct  2 13:34:03 2020
 @author: brage
 """
 
-# 4-24 FROM PPP BOOK, PAGE 112
-#
-# ### ELECTRIC FIELD POLARIZATION ###
-# Plots showing the evolution of the electric field vector at the plane z=0
-# over one complete cycle. 
-#
-# 
-# E = Ex sin(kz - wt + \phi_0x) + Ey sin(kz - wt + \phi_0y)
-#
-# each sub-exercise has different values for Ex, Ey, \phi_0x, \phi_0y
+# COPY OF 4-24_ani.py FROM EXERCISE 6
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -24,24 +15,19 @@ import matplotlib.patches as patches
 
 
 # Calculate Fields
-time = np.linspace(0, 2*np.pi, 32) # assuming omega = 1
+time = np.linspace(0, 2*np.pi, 32) # the product \omega * time, really
 
-subexercise = input("Choose sub exercise (a,b,c,d,e):")
+subexercise = input("Choose sub exercise (a,b,c):")
 if subexercise == 'a':
-    Ex = 2*np.sin(time)
-    Ey = np.sin(time)
+    Ex = np.cos(time - np.pi/4)
+    Ey = np.cos(time + np.pi/4)
 elif subexercise == 'b':
-    Ex = 2*np.sin(time)
-    Ey = np.cos(time)
+    Ex = np.cos(time - np.pi/4)
+    Ey = - 2 * np.sin(time)
 elif subexercise == 'c':
-    Ex = 2*np.sin(time)
-    Ey = -np.cos(time)
-elif subexercise == 'd':
-    Ex = 2*np.sin(time + np.pi/4)
-    Ey = np.cos(time - np.pi/4)   
-elif subexercise == 'e':
-    Ex = 2*np.sin(time)
-    Ey = np.sin(time - np.pi/4)
+    Ex = 0.5 * np.cos(time)
+    Ey = - np.sin(time + np.pi/2)
+
 
 # FIGURE #
 # Create figure
@@ -62,7 +48,7 @@ ax.set_aspect('equal', adjustable='box')
 plt.plot(Ex, Ey, 'r:')
 
 # Animate arrows
-patch = patches.Arrow(0, 0, Ex[0], Ey[0])
+patch = patches.Arrow(0, 0, Ex[0], Ey[0], width=0.5)
 
 def init():
     ax.add_patch(patch)
@@ -70,7 +56,7 @@ def init():
 
 def animate(t):
     ax.patches.pop()
-    patch = plt.Arrow(0, 0, Ex[t], Ey[t])
+    patch = plt.Arrow(0, 0, Ex[t], Ey[t], width=0.5)
     ax.add_patch(patch)
 
     
