@@ -5,7 +5,7 @@ Created on Thu Oct  8 12:16:41 2020
 
 @author: brage
 """
-
+# Plots unit vectors of k, E, B in a xyz-coordinate system.
 
 import numpy as np
 import matplotlib.pyplot as plt
