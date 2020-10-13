@@ -7,6 +7,10 @@ Created on Fri Oct  2 13:34:03 2020
 """
 
 # COPY OF 4-24_animation.py FROM EXERCISE 6 (with updated fields)
+# Electric field polarization plots + vector animation for 3 given fields (a,b,c).
+#
+# Plots showing the evolution of the electric field vector at the plane z=0
+# over one complete cycle of \omega*t. 
 
 import numpy as np
 import matplotlib.pyplot as plt
