@@ -10,4 +10,4 @@ Exercises and assignments from the NTNU course "Optikk Grunnkurs TFY4195" (eleme
 
 
 
-The majority of these codes were not strictly necessary in order to complete the tasks, but I did them to get more comfortable in numpy Python (previously I used MATLAB). 
+The majority of these codes were not strictly necessary in order to complete the tasks, but I did them to get more comfortable in numpy Python (previously I used MATLAB for similar tasks). 
