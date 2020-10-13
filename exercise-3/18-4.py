@@ -1,13 +1,16 @@
+# An equiconvex lens is situated between air and water. An object 5cm high is placed 60cm in front of the lens surface.
+# Script calculates cardinal points, image size and position.
+
 import numpy as np
 
 # system constants
-t = 2 #5
-R = 10 #40
-nA = 1.0 #1.33
-nL = 1.60
-nW = 1.33 #1.0
-y0 = 5
-s0 = 60
+t = 2 #5          # central thickness of lens
+R = 10 #40        # spherical surface radius of lens
+nA = 1.0 #1.33    # refractive index of first medium (incident beam)
+nL = 1.60         # refractive index of lens
+nW = 1.33 #1.0    # refractive index of second medium (after lens)
+y0 = 5            # height of object
+s0 = 60           # object distance to lens
 
 # RAY TRANSFER MATRICES
 L = np.array([[1, t],[0, 1]])   # translation matrix inside lens
