@@ -5,6 +5,7 @@ Created on Mon Oct 12 15:07:38 2020
 
 @author: brage
 """
+# Simple calculation of Fresnel reflectances for different angle of incidences.
 
 import numpy as np
 
