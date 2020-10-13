@@ -1,3 +1,6 @@
+Chapter 5: Optics of the Eye
+
+* 19-10.py
 A script to calculate the system ray matrix for an optical representation of the human eye. 
 
 System constants of a schematic eye is found from TABLE 19-2 in Pedrotti "Introduction to Optics" 3rd edition.
