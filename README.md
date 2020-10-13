@@ -1,5 +1,5 @@
 # optikk-gk
-Exercises and assignments from the NTNU course "Optikk Grunnkurs" TFY4195
+Exercises and assignments from the NTNU course "Optikk Grunnkurs TFY4195" (elementary optics)
 
 
 
