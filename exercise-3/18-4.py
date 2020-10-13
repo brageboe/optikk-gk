@@ -1,5 +1,7 @@
 # An equiconvex lens is situated between air and water. An object 5cm high is placed 60cm in front of the lens surface.
 # Script calculates cardinal points, image size and position.
+#
+# Change system constants to calculate for any equiconvex lens situated between two mediums.
 
 import numpy as np
 
