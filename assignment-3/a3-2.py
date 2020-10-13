@@ -6,7 +6,7 @@ Created on Fri Oct  2 13:34:03 2020
 @author: brage
 """
 
-# COPY OF 4-24_ani.py FROM EXERCISE 6
+# COPY OF 4-24_animation.py FROM EXERCISE 6 (with updated fields)
 
 import numpy as np
 import matplotlib.pyplot as plt
