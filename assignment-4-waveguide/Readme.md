@@ -2,9 +2,10 @@
 
 **A slab waveguide is modeled as a three-layered thin film.**
 
-Problems are given in Assignment_4.pdf, submitted solution in Optikk_GK_Assignment_4.pdf. Code files a4-1-multimode-TE.py and a4-2-multimode-TM.py are identical except for solving different mode relation equations and field components whose equations can be found in both pdf-files.
+Problem presented in Assignment_4.pdf, submitted solution in Optikk_GK_Assignment_4.pdf. Derivations of mode relation and field component equations can be found in Assignment_4.pdf for TE mode, and in Optikk_GK_Assignment_4.pdf for TM mode.
 
 User can choose the following parameters:
+  * Type of transversal polarization (TE or TM)
   * system wavelength 
   * refractive indices of core (slab) n_1 and outer cladding n_2 (n_1 > n_2 to ensure total internal reflection)
   * the number of modes to look for
