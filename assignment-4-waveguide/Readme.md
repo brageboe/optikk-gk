@@ -1,10 +1,8 @@
-Chapter 10: Fibre Optics
+**Chapter 10: Fibre Optics**
 
 A slab waveguide is modeled as a three-layered thin film. 
 
-Problems are given in Assignment_4.pdf, submitted solution in Optikk_GK_Assignment_4.pdf.
-
-Code files of interest are a4-1-multimode-TE.py and a4-2-multimode-TM.py, they are identical except for solving different mode relation equations and field components whose equations can be found in both pdf-files.
+Problems are given in Assignment_4.pdf, submitted solution in Optikk_GK_Assignment_4.pdf. Code files a4-1-multimode-TE.py and a4-2-multimode-TM.py are identical except for solving different mode relation equations and field components whose equations can be found in both pdf-files.
 
 User can choose the following parameters:
   * system wavelength 
