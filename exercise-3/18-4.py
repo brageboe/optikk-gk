@@ -2,6 +2,9 @@
 # Script calculates cardinal points, image size and position.
 #
 # Change system constants to calculate for any equiconvex lens situated between two mediums.
+#
+# exercise 18-4 in PPP.
+
 
 import numpy as np
 

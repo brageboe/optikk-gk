@@ -5,6 +5,10 @@ Created on Tue Sep 15 13:07:40 2020
 
 @author: brage
 """
+
+#object | lens 1 | distance | lens 1
+#output: distance to image plane
+
 import numpy as np
 
 f = 100
